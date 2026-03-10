@@ -12,13 +12,21 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=Harsha685&theme=tokyonight&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Harsha685&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-### ✍️ Random Dev Quote
+### ✍️ Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Harsha685&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
 
 ---
+🔭 I’m currently working on
+Building low-level projects such as operating systems and bootloaders.
+
+🌱 I’m currently learning
+Low-level development, embedded systems using STM32 microcontrollers, and exploring full-stack development and robotics.
+
+👯 I’m looking to collaborate on
+Low-level systems projects, backend development, and robotic
 [![](https://visitcount.itsvg.in/api?id=Harsha685&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
