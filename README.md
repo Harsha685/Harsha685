@@ -1,29 +1,98 @@
-# About Me:
- I’m currently working on<br>Building low-level projects such as operating systems and bootloaders.<br><br>🌱 I’m currently learning<br>Low-level development, embedded systems using STM32 microcontrollers, and exploring full-stack development and robotics.<br><br>👯 I’m looking to collaborate on<br>Low-level systems projects, backend development, and robotics projects.<br><br> Ask me about<br>C, C++, microcontrollers, and robotics-related topics.<br><br>⚡ Fun fact<br>I enjoy listening to music while coding.
+<div align="center">
 
+<!-- Banner / Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=180&section=header&text=Harsha&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Systems%20%7C%20Robotics%20%7C%20Embedded&descAlignY=60&descAlign=50" />
 
-## Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/Pt2uFqbW) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/harshavardhan_37) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:harshavardhanchelluri@gmail.com) 
+<!-- Typing animation -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=CS+student+%40+Andhra+University;Building+things+close+to+the+metal;UNIX+internals+%7C+Robotics+%7C+Embedded+Systems;Working+toward+MEXT+Masters+%282029%29" alt="Typing SVG" />
+</a>
 
-# Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
-# GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Harsha685&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Harsha685&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Harsha685&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-### Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-### Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Harsha685&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
+</div>
 
 ---
-I’m currently working on Building low-level projects such as operating systems and bootloaders.
 
-I’m currently learning Low-level development, embedded systems using STM32 microcontrollers, and exploring full-stack development and robotics.
+## 👋 About Me
 
-I’m looking to collaborate on Low-level systems projects, backend development, and robotic
-[![](https://visitcount.itsvg.in/api?id=Harsha685&icon=0&color=0)](https://visitcount.itsvg.in)
+I'm a first-year CS student at Andhra University, Visakhapatnam, fascinated by how computers actually work — not just on the surface, but underneath. My focus lives at the intersection of **systems programming**, **embedded systems**, and **robotics**.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+Currently working through APUE and building toward a summer research project on shell job control (signal-based vs. event-based implementations using `signalfd`/`epoll`). Long-term goal: MEXT Masters scholarship (2029), specializing in RTOS scheduling for robotics.
+
+```
+┌─────────────────────────────────────────────┐
+│  harsha@andhra-uni:~$ whoami                │
+│  > systems hacker. robotics enthusiast.     │
+│  > reads APUE for fun.                      │
+│  > builds things close to the metal.        │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-004482?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**Systems & Tooling**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![GDB](https://img.shields.io/badge/GDB-FF6600?style=flat-square&logo=gnu&logoColor=white)
+![Make](https://img.shields.io/badge/Make-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+**Exploring**
+
+![ROS 2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+
+---
+
+## 🚀 Projects
+
+| Project | Description | Stack |
+|--------|-------------|-------|
+| [**CHIP-8 Emulator**](https://github.com/harsha/chip8) | Fully functional CHIP-8 emulator built from scratch | C |
+| [**Unix Shell** *(WIP)*](https://github.com/harsha/shell) | Job-control shell with signal-based process management | C, POSIX |
+| [**malloc Implementation** *(WIP)*](https://github.com/harsha/malloc) | Custom allocator exploring free-list strategies | C |
+| [**Lighthouse** *(concept)*](https://github.com/harsha/lighthouse) | Photography authentication platform — distinguishing real photographer work from AI-generated images | TBD |
+
+---
+
+## 📚 Currently
+
+- 📖 Working through **APUE Ch. 8** (process control, signals, job management)
+- 🔬 Researching **RTOS scheduling algorithms for robotics** — targeting novel contribution
+- ⚙️ Designing a **signalfd/epoll-based shell** for summer 2025
+- 🤖 Learning **ROS 2** and embedded electronics for robotics track
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+## 🌐 Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+
+</div>
+
+---
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:302b63,100:0f0c29&height=100&section=footer" />
+</div>
