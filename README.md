@@ -51,10 +51,10 @@ I actively integrate AI tooling into my development and research workflow:
 
 - **AI Agents**: OpenClaw (agent-based workflows)
 - **Coding**: Google AntiGravity, Claude (IDE integration and code generation)
-- **Research**: Gemini (technical research and documentation)
+- **Research**: Gemini, perplexity (technical research and documentation)
 - **Local/Offline Work**: Ollama (local LLMs for embedded development)
 - **Automation**: n8n (workflow automation for robotics pipelines)
-- **Design**: OpenDesign (UI/UX for projects)
+- **Design**: OpenDesign , GoogleStitch (UI/UX for projects)
 
 I used GoogleStitch to design and build my [portfolio site](https://harsha-github-io-iota.vercel.app/) and OpenDesign for [FlashBot documentation site](https://flash-bot-docs.vercel.app/).
 
@@ -76,7 +76,7 @@ April 2026 – Present
 
 | Project | Tech | Description | Links |
 |---|---|---|---|
-| **FlashBot** | Python, Docker, SQLite | Automated firmware detection, compilation and flashing across MCU architectures | Improved Workflow effiency by 25% | [Repo](https://github.com/Harsha685/Flash_Bot) · [Docs](https://flash-bot-docs.vercel.app/) |
+| **FlashBot** | Python, Docker, SQLite | Automated firmware detection, compilation and flashing across MCU architectures. Improved Workflow effiency by 25% | [Repo](https://github.com/Harsha685/Flash_Bot) · [Docs](https://flash-bot-docs.vercel.app/) |
 | **CHIP-8 Emulator** | C, SDL | Full emulator from scratch featuring fetch-decode-execute cycle, display, and keyboard | [Repo](https://github.com/Harsha685/chip-8-emulator) |
 | **Boustrophedon Coverage Planner** | Python | A* path planner with boustrophedon decomposition, 30% efficiency gain | [Repo](https://github.com/Harsha685/Grid-based-boustrophedon-coverage-planner) |
 | **System Monitor** | Python, psutil, rich | Terminal-based real-time CPU/memory/disk/network/process monitor | [Repo](https://github.com/Harsha685/System-Monitor) |
