@@ -4,7 +4,7 @@ Computer Science and Systems Engineering student at Andhra University focused on
 
 ## About
 
-I am a B.Tech student at Andhra University, Visakhapatnam, currently in my second year and working as a Robotics Intern at Aegion Dynamic Solutions LLP [file:1]. My work spans robotics simulation, embedded systems, and hardware automation, with an emphasis on building reliable tools close to the metal.
+I am a B.Tech student at Andhra University, Visakhapatnam, currently in my second year and working as a Robotics Intern at Aegion Dynamic Solutions LLP. My work spans robotics simulation, embedded systems, and hardware automation, with an emphasis on building reliable tools close to the metal.
 
 I am particularly interested in robotics engineering, low-level programming, and AI tools that improve developer and hardware workflows. My long-term goal is to pursue the MEXT scholarship and continue into graduate study in robotics.
 
@@ -12,7 +12,7 @@ I am particularly interested in robotics engineering, low-level programming, and
 
 ### Robotics Intern
 Aegion Dynamic Solutions LLP, Visakhapatnam, India  
-April 2026 – Present [file:1]
+April 2026 – Present
 
 - Designed and simulated an autonomous robotic vacuum cleaner using ROS 2 and Gazebo.
 - Developed a portable hardware testing device powered by a Raspberry Pi Zero for automated circuit diagnostics.
@@ -28,6 +28,12 @@ Tech: Python, Docker, SQLite
 - Abstracted USB/UART interactions using pyudev for consistent hardware workflows.
 - Designed an event-driven state machine with SQLite logging for traceability.
 
+![FlashBot in action](https://raw.githubusercontent.com/Harsha685/Harsha685/main/Flashbot-ezgif.com-video-to-gif-converter.gif)
+
+![FlashBot Arduino setup](https://raw.githubusercontent.com/Harsha685/Harsha685/main/Flashbot_arduino.jpeg)
+
+---
+
 ### CHIP-8 Emulator
 Emulator built from scratch with core architectural and runtime features.  
 Tech: C, SDL
@@ -35,6 +41,10 @@ Tech: C, SDL
 - Implemented the full fetch-decode-execute cycle.
 - Added opcode handling, memory architecture, and bitwise instruction parsing.
 - Built display rendering and real-time keyboard input handling.
+
+![CHIP-8 Emulator demo](https://raw.githubusercontent.com/Harsha685/Harsha685/main/Chip8%20(1).gif)
+
+---
 
 ### Grid-based Boustrophedon Coverage Planner
 Prototype robotic coverage planning system for cleaning robot applications.  
@@ -44,12 +54,18 @@ Tech: Python
 - Improved efficiency by 30 percent over a previous implementation.
 - Built and tested the system in simulation.
 
+![Coverage path planning demo](https://raw.githubusercontent.com/Harsha685/Harsha685/main/path_algo-ezgif.com-video-to-gif-converter.gif)
+
+---
+
 ### Offline AI Robot Assistant
 Team project developed for the Srujana 2026 State-Level Hackathon.  
 Tech: Python, C, Arduino IDE
 
 - Integrated ESP32, servo motors, and TFT display for physical interaction and feedback.
-- Awarded 1st Place at the state-level hackathon [file:1].
+- Awarded 1st Place at the state-level hackathon.
+
+---
 
 ## Skills
 
@@ -65,25 +81,34 @@ Git, Docker, Linux, Fusion 360, STM32CubeIDE, VS Code
 ### Libraries
 NumPy, Matplotlib, OpenCV, PySerial
 
+![System monitor](https://raw.githubusercontent.com/Harsha685/Harsha685/main/System_monitor.png)
+
 ## Education
 
 ### Andhra University
 B.Tech in Computer Science and Engineering  
 2025 – 2029  
-GPA: 8.0 / 10 in Year 1 [file:1]
+GPA: 8.0 / 10 in Year 1
 
-Relevant coursework includes Data Structures in C, Digital Logic Design, Electronics, and Linux [file:1].
+Relevant coursework includes Data Structures in C, Digital Logic Design, Electronics, and Linux.
+
+![1st Year Syllabus](https://raw.githubusercontent.com/Harsha685/Harsha685/main/1st_year_syllabus.jpeg)
 
 ## Achievements
 
-- 1st Place, Srujana 2026 State-Level Hackathon, SVPEC Visakhapatnam [file:1].
+- 1st Place, Srujana 2026 State-Level Hackathon, SVPEC Visakhapatnam.
 - Built FlashBot as an open-source automation pipeline for MCU firmware workflows.
-- Completed the freeCodeCamp Python Developer Certification and Anthropic’s Model Context Protocol: Advanced Topics certification [file:1].
+- Completed the freeCodeCamp Python Developer Certification and Anthropic's Model Context Protocol: Advanced Topics certification.
 
 ## Certifications
 
-- Model Context Protocol: Advanced Topics, Anthropic, 2026 [file:1].
-- Python Developer Certification, freeCodeCamp, May 2026 [file:1].
+- Model Context Protocol: Advanced Topics, Anthropic, 2026.
+
+![Anthropic MCP Certificate](https://raw.githubusercontent.com/Harsha685/Harsha685/main/Anthropic_MCP.jpg)
+
+- Python Developer Certification, freeCodeCamp, May 2026.
+
+![Python Developer Certificate](https://raw.githubusercontent.com/Harsha685/Harsha685/main/python_cert.png)
 
 ## Research Interests
 
