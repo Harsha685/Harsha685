@@ -1,98 +1,97 @@
-<div align="center">
+# Chelluri Harsha Vardhan
 
-<!-- Banner / Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,100:302b63&height=180&section=header&text=Harsha&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Systems%20%7C%20Robotics%20%7C%20Embedded&descAlignY=60&descAlign=50" />
+Computer Science and Systems Engineering student at Andhra University focused on robotics, low-level programming, and AI tooling. I build practical systems across embedded software, automation, and robotics, with a growing interest in agent-based AI and research-driven engineering.
 
-<!-- Typing animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=CS+student+%40+Andhra+University;Building+things+close+to+the+metal;UNIX+internals+%7C+Robotics+%7C+Embedded+Systems;Working+toward+MEXT+Masters+%282029%29" alt="Typing SVG" />
-</a>
+## About
 
-</div>
+I am a B.Tech student at Andhra University, Visakhapatnam, currently in my second year and working as a Robotics Intern at Aegion Dynamic Solutions LLP [file:1]. My work spans robotics simulation, embedded systems, and hardware automation, with an emphasis on building reliable tools close to the metal.
 
----
+I am particularly interested in robotics engineering, low-level programming, and AI tools that improve developer and hardware workflows. My long-term goal is to pursue the MEXT scholarship and continue into graduate study in robotics.
 
-## 👋 About Me
+## Experience
 
-I'm a first-year CS student at Andhra University, Visakhapatnam, fascinated by how computers actually work — not just on the surface, but underneath. My focus lives at the intersection of **systems programming**, **embedded systems**, and **robotics**.
+### Robotics Intern
+Aegion Dynamic Solutions LLP, Visakhapatnam, India  
+April 2026 – Present [file:1]
 
-Currently working through APUE and building toward a summer research project on shell job control (signal-based vs. event-based implementations using `signalfd`/`epoll`). Long-term goal: MEXT Masters scholarship (2029), specializing in RTOS scheduling for robotics.
+- Designed and simulated an autonomous robotic vacuum cleaner using ROS 2 and Gazebo.
+- Developed a portable hardware testing device powered by a Raspberry Pi Zero for automated circuit diagnostics.
+- Contributed to open-source software and embedded hardware projects in an internship environment.
 
-```
-┌─────────────────────────────────────────────┐
-│  harsha@andhra-uni:~$ whoami                │
-│  > systems hacker. robotics enthusiast.     │
-│  > reads APUE for fun.                      │
-│  > builds things close to the metal.        │
-└─────────────────────────────────────────────┘
-```
+## Selected Projects
 
----
+### FlashBot | Hardware Automation Pipeline
+Open-source tool for automating firmware detection, compilation, and flashing across multiple MCU architectures.  
+Tech: Python, Docker, SQLite
 
-## 🛠️ Tech Stack
+- Built dockerized cross-compilation toolchains using arduino-cli and esptool.
+- Abstracted USB/UART interactions using pyudev for consistent hardware workflows.
+- Designed an event-driven state machine with SQLite logging for traceability.
 
-**Languages**
+### CHIP-8 Emulator
+Emulator built from scratch with core architectural and runtime features.  
+Tech: C, SDL
 
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-004482?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+- Implemented the full fetch-decode-execute cycle.
+- Added opcode handling, memory architecture, and bitwise instruction parsing.
+- Built display rendering and real-time keyboard input handling.
 
-**Systems & Tooling**
+### Grid-based Boustrophedon Coverage Planner
+Prototype robotic coverage planning system for cleaning robot applications.  
+Tech: Python
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![GDB](https://img.shields.io/badge/GDB-FF6600?style=flat-square&logo=gnu&logoColor=white)
-![Make](https://img.shields.io/badge/Make-064F8C?style=flat-square&logo=cmake&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+- Implemented an A* path planner with boustrophedon cellular decomposition.
+- Improved efficiency by 30 percent over a previous implementation.
+- Built and tested the system in simulation.
 
-**Exploring**
+### Offline AI Robot Assistant
+Team project developed for the Srujana 2026 State-Level Hackathon.  
+Tech: Python, C, Arduino IDE
 
-![ROS 2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+- Integrated ESP32, servo motors, and TFT display for physical interaction and feedback.
+- Awarded 1st Place at the state-level hackathon [file:1].
 
----
+## Skills
 
-## 🚀 Projects
+### Programming
+Bare-metal C, C++, Python
 
-| Project | Description | Stack |
-|--------|-------------|-------|
-| [**CHIP-8 Emulator**](https://github.com/harsha/chip8) | Fully functional CHIP-8 emulator built from scratch | C |
-| [**Unix Shell** *(WIP)*](https://github.com/harsha/shell) | Job-control shell with signal-based process management | C, POSIX |
-| [**malloc Implementation** *(WIP)*](https://github.com/harsha/malloc) | Custom allocator exploring free-list strategies | C |
-| [**Lighthouse** *(concept)*](https://github.com/harsha/lighthouse) | Photography authentication platform — distinguishing real photographer work from AI-generated images | TBD |
+### Robotics and Embedded Systems
+ROS 2, Gazebo, ESP32, STM32F411C Black Pill, Raspberry Pi Pico, Arduino
 
----
+### Tools
+Git, Docker, Linux, Fusion 360, STM32CubeIDE, VS Code
 
-## 📚 Currently
+### Libraries
+NumPy, Matplotlib, OpenCV, PySerial
 
-- 📖 Working through **APUE Ch. 8** (process control, signals, job management)
-- 🔬 Researching **RTOS scheduling algorithms for robotics** — targeting novel contribution
-- ⚙️ Designing a **signalfd/epoll-based shell** for summer 2025
-- 🤖 Learning **ROS 2** and embedded electronics for robotics track
+## Education
 
----
+### Andhra University
+B.Tech in Computer Science and Engineering  
+2025 – 2029  
+GPA: 8.0 / 10 in Year 1 [file:1]
 
-## 📊 GitHub Stats
+Relevant coursework includes Data Structures in C, Digital Logic Design, Electronics, and Linux [file:1].
 
-<div align="center">
+## Achievements
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
+- 1st Place, Srujana 2026 State-Level Hackathon, SVPEC Visakhapatnam [file:1].
+- Built FlashBot as an open-source automation pipeline for MCU firmware workflows.
+- Completed the freeCodeCamp Python Developer Certification and Anthropic’s Model Context Protocol: Advanced Topics certification [file:1].
 
-</div>
+## Certifications
 
----
+- Model Context Protocol: Advanced Topics, Anthropic, 2026 [file:1].
+- Python Developer Certification, freeCodeCamp, May 2026 [file:1].
 
-## 🌐 Connect
+## Research Interests
 
-<div align="center">
+My current focus is robotics engineering, low-level systems, and AI tooling with an emphasis on agents and practical automation. I am also preparing a research direction that can support graduate study and future work in robotics.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+## Contact
 
-</div>
-
----
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:302b63,100:0f0c29&height=100&section=footer" />
-</div>
+- GitHub: [Harsha685](https://github.com/Harsha685)
+- LinkedIn: [Harsha Vardhan Chelluri](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382)
+- Portfolio: [harsha-github-io-iota.vercel.app](https://harsha-github-io-iota.vercel.app/)
+- Docs: [FlashBot Docs](https://flash-bot-docs.vercel.app/)
