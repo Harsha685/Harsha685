@@ -6,10 +6,7 @@ Computer Science and Systems Engineering student at Andhra University focused on
 
 **Open to:** internships · research collaborations · open source
 
-[![GitHub](https://img.shields.io/badge/GitHub-Harsha685-181717?style=flat&logo=github)](https://github.com/Harsha685)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harsha%20Vardhan-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4F46E5?style=flat&logo=vercel)](https://harsha-github-io-iota.vercel.app/)
-[![FlashBot Docs](https://img.shields.io/badge/FlashBot-Docs-22C55E?style=flat&logo=readthedocs)](https://flash-bot-docs.vercel.app/)
+[GitHub](https://github.com/Harsha685) | [LinkedIn](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382) | [Portfolio](https://harsha-github-io-iota.vercel.app/) | [FlashBot Docs](https://flash-bot-docs.vercel.app/)
 
 </div>
 
@@ -17,20 +14,7 @@ Computer Science and Systems Engineering student at Andhra University focused on
 
 ## Tech Stack
 
-<div align="center">
-
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-</div>
+C, C++, Python, ROS 2, Docker, Linux, Arduino, Git, SQLite, OpenCV
 
 ---
 
@@ -65,20 +49,12 @@ Currently building ROS 2 simulation pipelines and exploring autonomous navigatio
 
 I actively integrate AI tooling into my development and research workflow:
 
-<div align="center">
-
-![Claude](https://img.shields.io/badge/Claude-Anthropic-D97706?style=flat&logo=anthropic&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-AI%20Editor-000000?style=flat&logo=cursor&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-Google-4285F4?style=flat&logo=google&logoColor=white)
-![Perplexity](https://img.shields.io/badge/Perplexity-AI-1FB8CD?style=flat&logo=perplexity&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-Local%20LLMs-000000?style=flat)
-![n8n](https://img.shields.io/badge/n8n-Automation-EA4B71?style=flat&logo=n8n&logoColor=white)
-![Google AI Studio](https://img.shields.io/badge/Google%20AI%20Studio-4285F4?style=flat&logo=google&logoColor=white)
-![OpenCode](https://img.shields.io/badge/OpenCode-CLI%20AI-22C55E?style=flat)
-![OpenClaw](https://img.shields.io/badge/OpenClaw-Agent-7C3AED?style=flat)
-![OpenDesign](https://img.shields.io/badge/OpenDesign-UI%2FUX-F97316?style=flat)
-
-</div>
+- **AI Agents**: OpenClaw (agent-based workflows)
+- **Coding**: Google AntiGravity, Claude (IDE integration and code generation)
+- **Research**: Gemini (technical research and documentation)
+- **Local/Offline Work**: Ollama (local LLMs for embedded development)
+- **Automation**: n8n (workflow automation for robotics pipelines)
+- **Design**: OpenDesign (UI/UX for projects)
 
 I used GoogleStitch to design and build my [portfolio site](https://harsha-github-io-iota.vercel.app/) and OpenDesign for [FlashBot documentation site](https://flash-bot-docs.vercel.app/).
 
@@ -100,7 +76,7 @@ April 2026 – Present
 
 | Project | Tech | Description | Links |
 |---|---|---|---|
-| **FlashBot** | Python, Docker, SQLite | Automated firmware detection, compilation and flashing across MCU architectures | [Repo](https://github.com/Harsha685/Flash_Bot) · [Docs](https://flash-bot-docs.vercel.app/) |
+| **FlashBot** | Python, Docker, SQLite | Automated firmware detection, compilation and flashing across MCU architectures | Improved Workflow effiency by 25% | [Repo](https://github.com/Harsha685/Flash_Bot) · [Docs](https://flash-bot-docs.vercel.app/) |
 | **CHIP-8 Emulator** | C, SDL | Full emulator from scratch featuring fetch-decode-execute cycle, display, and keyboard | [Repo](https://github.com/Harsha685/chip-8-emulator) |
 | **Boustrophedon Coverage Planner** | Python | A* path planner with boustrophedon decomposition, 30% efficiency gain | [Repo](https://github.com/Harsha685/Grid-based-boustrophedon-coverage-planner) |
 | **System Monitor** | Python, psutil, rich | Terminal-based real-time CPU/memory/disk/network/process monitor | [Repo](https://github.com/Harsha685/System-Monitor) |
@@ -235,17 +211,4 @@ Current focus is robotics engineering, low-level systems, and AI tooling with an
 
 ## Contact
 
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-Harsha685-181717?style=for-the-badge&logo=github)](https://github.com/Harsha685)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harsha%20Vardhan-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4F46E5?style=for-the-badge&logo=vercel)](https://harsha-github-io-iota.vercel.app/)
-[![FlashBot Docs](https://img.shields.io/badge/FlashBot-Docs-22C55E?style=for-the-badge&logo=readthedocs)](https://flash-bot-docs.vercel.app/)
-
-</div>
-[![GitHub](https://img.shields.io/badge/GitHub-Harsha685-181717?style=for-the-badge&logo=github)](https://github.com/Harsha685)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harsha%20Vardhan-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4F46E5?style=for-the-badge&logo=vercel)](https://harsha-github-io-iota.vercel.app/)
-[![FlashBot Docs](https://img.shields.io/badge/FlashBot-Docs-22C55E?style=for-the-badge&logo=readthedocs)](https://flash-bot-docs.vercel.app/)
-
-</div>
+[GitHub](https://github.com/Harsha685) | [LinkedIn](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382) | [Portfolio](https://harsha-github-io-iota.vercel.app/) | [FlashBot Docs](https://flash-bot-docs.vercel.app/)
