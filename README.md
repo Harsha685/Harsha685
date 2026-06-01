@@ -5,7 +5,19 @@
 Computer Science and Systems Engineering student at Andhra University focused on robotics, low-level programming, and AI tooling. I build practical systems across embedded software, automation, and robotics, with a growing interest in agent-based AI and research-driven engineering.
 
 **Open to:** internships · research collaborations · open source
+## Research Interests
 
+Current focus is robotics engineering, low-level systems, and AI tooling with an emphasis on agents and practical automation.
+
+**Currently working on:**
+- Signal-Based vs. Event-Based Job Control in POSIX Shells: A Performance and Scalability Analysis (building two POSIX-compliant shells and stress testing under high-concurrency workloads)
+- ROS 2 simulation pipelines and autonomous navigation at Aegion Dynamic Solutions
+
+**Planning to work on:**
+- Agent-based AI systems for embedded robotics
+- Graduate study in robotics (MEXT scholarship) with focus on low-level systems and real-time task scheduling
+
+This research direction supports future graduate study and work in robotics engineering.
 [GitHub](https://github.com/Harsha685) | [LinkedIn](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382) | [Portfolio](https://harsha-github-io-iota.vercel.app/) | [FlashBot Docs](https://flash-bot-docs.vercel.app/)
 
 </div>
@@ -201,7 +213,17 @@ Relevant coursework: Data Structures in C, Digital Logic Design, Electronics, Li
 
 ## Research Interests
 
-Current focus is robotics engineering, low-level systems, and AI tooling with an emphasis on agents and practical automation. Preparing a research direction that can support graduate study and future work in robotics.
+Current focus is robotics engineering, low-level systems, and AI tooling with an emphasis on agents and practical automation.
+
+**Currently working on:**
+- Signal-Based vs. Event-Based Job Control in POSIX Shells: A Performance and Scalability Analysis (building two POSIX-compliant shells and stress testing under high-concurrency workloads)
+- ROS 2 simulation pipelines and autonomous navigation at Aegion Dynamic Solutions
+
+**Planning to work on:**
+- Agent-based AI systems for embedded robotics
+- Graduate study in robotics (MEXT scholarship) with focus on low-level systems and real-time task scheduling
+
+This research direction supports future graduate study and work in robotics engineering.
 
 ---
 
