@@ -18,13 +18,15 @@ C, C++, Python, ROS 2, Docker, Linux, Arduino, ESP32, STM32, Git, OpenCV, Fusion
 
 ---
 
-<!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=Harsha685&show_icons=true&theme=tokyonight&hide_border=true" width="400"/>
-<!-- Change to: -->
-<img src="https://github-readme-stats-git-master-r мощности.vercel.app/api?username=Harsha685&show_icons=true&theme=tokyonight&hide_border=true" width="400"/>
+---
 
-<!-- Or use github-profile-summary-cards -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Harsha685&theme=tokyonight" width="200"/>
+## GitHub Stats
+
+<div align="center">
+
+Stats available on my [GitHub profile](https://github.com/Harsha685)
+
+</div>
 
 ---
 
