@@ -80,7 +80,7 @@ I actively integrate AI tooling into my development and research workflow:
 
 </div>
 
-I used **OpenDesign** to design and build my [portfolio site](https://harsha-github-io-iota.vercel.app/) and the [FlashBot documentation site](https://flash-bot-docs.vercel.app/).
+I used **GoogleStitch** to design and build my [portfolio site](https://harsha-github-io-iota.vercel.app/) and **OpenDesign** for [FlashBot documentation site](https://flash-bot-docs.vercel.app/).
 
 ---
 
