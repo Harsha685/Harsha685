@@ -28,9 +28,9 @@ Tech: Python, Docker, SQLite
 - Abstracted USB/UART interactions using pyudev for consistent hardware workflows.
 - Designed an event-driven state machine with SQLite logging for traceability.
 
-![FlashBot in action](https://raw.githubusercontent.com/Harsha685/Harsha685/main/Flashbot-ezgif.com-video-to-gif-converter.gif)
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/Flashbot-ezgif.com-video-to-gif-converter.gif" width="400"/>
 
-![FlashBot Arduino setup](https://raw.githubusercontent.com/Harsha685/Harsha685/main/Flashbot_arduino.jpeg)
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/Flashbot_arduino.jpeg" width="400"/>
 
 ---
 
@@ -42,7 +42,7 @@ Tech: C, SDL
 - Added opcode handling, memory architecture, and bitwise instruction parsing.
 - Built display rendering and real-time keyboard input handling.
 
-![CHIP-8 Emulator demo](https://raw.githubusercontent.com/Harsha685/Harsha685/main/Chip8%20(1).gif)
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/Chip8%20(1).gif" width="400"/>
 
 ---
 
@@ -54,7 +54,7 @@ Tech: Python
 - Improved efficiency by 30 percent over a previous implementation.
 - Built and tested the system in simulation.
 
-![Coverage path planning demo](https://raw.githubusercontent.com/Harsha685/Harsha685/main/path_algo-ezgif.com-video-to-gif-converter.gif)
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/path_algo-ezgif.com-video-to-gif-converter.gif" width="400"/>
 
 ---
 
@@ -81,7 +81,7 @@ Git, Docker, Linux, Fusion 360, STM32CubeIDE, VS Code
 ### Libraries
 NumPy, Matplotlib, OpenCV, PySerial
 
-![System monitor](https://raw.githubusercontent.com/Harsha685/Harsha685/main/System_monitor.png)
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/System_monitor.png" width="400"/>
 
 ## Education
 
@@ -92,7 +92,7 @@ GPA: 8.0 / 10 in Year 1
 
 Relevant coursework includes Data Structures in C, Digital Logic Design, Electronics, and Linux.
 
-![1st Year Syllabus](https://raw.githubusercontent.com/Harsha685/Harsha685/main/1st_year_syllabus.jpeg)
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/1st_year_syllabus.jpeg" height="300"/>
 
 ## Achievements
 
@@ -104,11 +104,11 @@ Relevant coursework includes Data Structures in C, Digital Logic Design, Electro
 
 - Model Context Protocol: Advanced Topics, Anthropic, 2026.
 
-![Anthropic MCP Certificate](https://raw.githubusercontent.com/Harsha685/Harsha685/main/Anthropic_MCP.jpg)
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/Anthropic_MCP.jpg" height="300"/>
 
 - Python Developer Certification, freeCodeCamp, May 2026.
 
-![Python Developer Certificate](https://raw.githubusercontent.com/Harsha685/Harsha685/main/python_cert.png)
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/python_cert.png" height="300"/>
 
 ## Research Interests
 
