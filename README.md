@@ -64,10 +64,10 @@ I used GoogleStitch to design and build my [portfolio site](https://harsha-githu
 
 ### Robotics Intern
 **Aegion Dynamic Solutions LLP**, Visakhapatnam, India  
-April 2026 – Present
+May 2026 – Present(ongoing)
 
-- Designed and simulated an autonomous robotic vacuum cleaner using ROS 2 and Gazebo
-- Developed a portable hardware testing device powered by a Raspberry Pi Zero for automated circuit diagnostics
+- Designing and simulated an autonomous robotic vacuum cleaner using ROS 2 and Gazebo
+- Developing a portable hardware testing device powered by a Raspberry Pi Zero for automated circuit diagnostics
 - Contributed to open-source software and embedded hardware projects in an internship environment
 
 ---
