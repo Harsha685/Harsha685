@@ -141,10 +141,6 @@ Team project built for the Srujana 2026 State-Level Hackathon at SVPEC Visakhapa
 - Runs fully offline with no cloud dependency
 - Awarded 1st Place at the state-level hackathon
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/WhatsApp Image 2026-06-02 at 02.40.04" width="400"/>
-</div>
-
 ---
 
 ## Community
@@ -154,7 +150,7 @@ Team project built for the Srujana 2026 State-Level Hackathon at SVPEC Visakhapa
 Frequently attended the Vizag Game Dev's Port Meetup in Visakhapatnam, a local community event for indie developers, pixel artists, game designers, and audio creators to connect, share builds, and grow the local game dev ecosystem.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/gamedev_meetup" width="400"/>
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/gamedev_meetup.jpeg" width="400"/>
 </div>
 
 ---
