@@ -14,7 +14,7 @@ Computer Science and Systems Engineering student at Andhra University focused on
 
 ## Tech Stack
 
-C, C++, Python, ROS 2, Docker, Linux, Arduino, Esp32 , Stm32 , Git, OpenCV , Fusion360
+C, C++, Python, ROS 2, Docker, Linux, Arduino, ESP32, STM32, Git, OpenCV, Fusion 360
 
 ---
 
@@ -41,8 +41,6 @@ I am a B.Tech student at Andhra University, Visakhapatnam, currently in my secon
 
 I am particularly interested in robotics engineering, low-level programming, and AI tools that improve developer and hardware workflows. My long-term goal is to pursue the MEXT scholarship and continue into graduate study in robotics.
 
-Currently building ROS 2 simulation pipelines and exploring autonomous navigation at Aegion Dynamic Solutions.
-
 ---
 
 ## AI Tools I Use
@@ -51,12 +49,12 @@ I actively integrate AI tooling into my development and research workflow:
 
 - **AI Agents**: OpenClaw (agent-based workflows)
 - **Coding**: Google AntiGravity, Claude (IDE integration and code generation)
-- **Research**: Gemini, perplexity (technical research and documentation)
+- **Research**: Gemini, Perplexity (technical research and documentation)
 - **Local/Offline Work**: Ollama (local LLMs for embedded development)
 - **Automation**: n8n (workflow automation for robotics pipelines)
-- **Design**: OpenDesign , GoogleStitch (UI/UX for projects)
+- **Design**: OpenDesign, GoogleStitch (UI/UX for projects)
 
-I used GoogleStitch to design and build my [portfolio site](https://harsha-github-io-iota.vercel.app/) and OpenDesign for [FlashBot documentation site](https://flash-bot-docs.vercel.app/).
+I used GoogleStitch to design and build my [portfolio site](https://harsha-github-io-iota.vercel.app/) and OpenDesign for the [FlashBot documentation site](https://flash-bot-docs.vercel.app/).
 
 ---
 
@@ -66,9 +64,9 @@ I used GoogleStitch to design and build my [portfolio site](https://harsha-githu
 **Aegion Dynamic Solutions LLP**, Visakhapatnam, India  
 May 2026 – Present(ongoing)
 
-- Designing and simulated an autonomous robotic vacuum cleaner using ROS 2 and Gazebo
+- Designing and simulating an autonomous robotic vacuum cleaner using ROS 2 and Gazebo
 - Developing a portable hardware testing device powered by a Raspberry Pi Zero for automated circuit diagnostics
-- Contributed to open-source software and embedded hardware projects in an internship environment
+- Contributing to open-source software and embedded hardware projects in an internship environment
 
 ---
 
@@ -76,7 +74,7 @@ May 2026 – Present(ongoing)
 
 | Project | Tech | Description | Links |
 |---|---|---|---|
-| **FlashBot** | Python, Docker, SQLite | Automated firmware detection, compilation and flashing across MCU architectures. Improved Workflow effiency by 25% | [Repo](https://github.com/Harsha685/Flash_Bot) · [Docs](https://flash-bot-docs.vercel.app/) |
+| **FlashBot** | Python, Docker, SQLite | Automated firmware detection, compilation, and flashing across MCU architectures. Improved workflow efficiency by 25%. | [Repo](https://github.com/Harsha685/Flash_Bot) · [Docs](https://flash-bot-docs.vercel.app/) |
 | **CHIP-8 Emulator** | C, SDL | Full emulator from scratch featuring fetch-decode-execute cycle, display, and keyboard | [Repo](https://github.com/Harsha685/chip-8-emulator) |
 | **Boustrophedon Coverage Planner** | Python | A* path planner with boustrophedon decomposition, 30% efficiency gain | [Repo](https://github.com/Harsha685/Grid-based-boustrophedon-coverage-planner) |
 | **System Monitor** | Python, psutil, rich | Terminal-based real-time CPU/memory/disk/network/process monitor | [Repo](https://github.com/Harsha685/System-Monitor) |
@@ -147,7 +145,7 @@ Team project built for the Srujana 2026 State-Level Hackathon at SVPEC Visakhapa
 
 ### Vizag Game Devs — Port Meetup
 
-Frequently attended the Vizag Game Dev's Port Meetup in Visakhapatnam, a local community event for indie developers, pixel artists, game designers, and audio creators to connect, share builds, and grow the local game dev ecosystem.
+Frequently attend the Vizag Game Devs Port Meetup in Visakhapatnam, a local community event for indie developers, pixel artists, game designers, and audio creators to connect, share builds, and grow the local game dev ecosystem.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/gamedev_meetup.jpeg" width="400"/>
@@ -175,7 +173,7 @@ NumPy, Matplotlib, OpenCV, PySerial
 
 ### Andhra University
 B.Tech in Computer Science and Engineering  
-2025 – 2029 · GPA: 8.0 / 10 in Year 1
+2025 – 2029 · GPA: 8.0 / 10 (Year 1)
 
 Relevant coursework: Data Structures in C, Digital Logic Design, Electronics, Linux
 
