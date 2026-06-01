@@ -14,7 +14,7 @@ Computer Science and Systems Engineering student at Andhra University focused on
 
 ## Tech Stack
 
-C, C++, Python, ROS 2, Docker, Linux, Arduino, Git, SQLite, OpenCV
+C, C++, Python, ROS 2, Docker, Linux, Arduino, Esp32 , Stm32 , Git, OpenCV , Fusion360
 
 ---
 
