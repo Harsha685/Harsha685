@@ -24,7 +24,14 @@ C, C++, Python, ROS 2, Docker, Linux, Arduino, ESP32, STM32, Git, OpenCV, Fusion
 
 <div align="center">
 
-Stats available on my [GitHub profile](https://github.com/Harsha685)
+<img src="https://github-readme-stats.vercel.app/api?username=Harsha685&show_icons=true&theme=tokyonight&hide_border=true" width="400"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harsha685&layout=compact&theme=tokyonight&hide_border=true" width="400"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Harsha685&theme=tokyonight&hide_border=true" width="500"/>
 
 </div>
 
