@@ -2,212 +2,186 @@
 
 # Chelluri Harsha Vardhan
 
-Computer Science and Systems Engineering student at Andhra University focused on robotics, low-level programming, and AI tooling. I build practical systems across embedded software, automation, and robotics, with a growing interest in agent-based AI and research-driven engineering.
+### Robotics & Embedded Systems Engineer
 
-**Open to:** internships · research collaborations · open source
+Bare-metal firmware · Sensor fusion · ROS 2 · Systems programming
 
-[GitHub](https://github.com/Harsha685) | [LinkedIn](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382) | [Portfolio](https://harsha-github-io-iota.vercel.app/) | [FlashBot Docs](https://flash-bot-docs.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-harshavardhanchelluri%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:harshavardhanchelluri@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Harshavardhan%20Chelluri-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-111111?style=flat-square&logo=vercel&logoColor=white)](https://harsha-github-io-iota.vercel.app/)
 
-</div>
-
----
-
-## Tech Stack
-
-C, C++, Python, ROS 2, Docker, Linux, Arduino, ESP32, STM32, Git, OpenCV, Fusion 360
-
----
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Harsha685&theme=tokyonight&hide_border=true" width="500"/>
+**Seeking robotics / embedded internships, especially with startups in Japan and Germany.**
 
 </div>
 
 ---
 
-## About
+## Hey, I'm Harsha
 
-I am a B.Tech student at Andhra University, Visakhapatnam, currently in my second year and working as a Robotics Intern at Aegion Dynamic Solutions LLP. My work spans robotics simulation, embedded systems, and hardware automation, with an emphasis on building reliable tools close to the metal.
+I'm a Computer Science and Systems Engineering student at Andhra University College of Engineering (AUCE), Visakhapatnam, and a Robotics Intern at Aegion Dynamic Solutions.
 
-I am particularly interested in robotics engineering, low-level programming, and AI tools that improve developer and hardware workflows. My long-term goal is to pursue the MEXT scholarship and continue into graduate study in robotics.
+I like working close to the hardware: register-level C on STM32 and RP2040, FreeRTOS on dual-core MCUs, Kalman-filter sensor fusion, and ROS 2 navigation stacks. The problems I enjoy most are the ones where timing, noise, and physical constraints decide whether a system actually works, and I try to measure before I claim it does.
 
----
-
-## AI Tools I Use
-
-I actively integrate AI tooling into my development and research workflow:
-
-- **AI Agents**: OpenClaw (agent-based workflows)
-- **Coding**: Google AntiGravity, Claude (IDE integration and code generation)
-- **Research**: Gemini, Perplexity (technical research and documentation)
-- **Local/Offline Work**: Ollama (local LLMs for embedded development)
-- **Automation**: n8n (workflow automation for robotics pipelines)
-- **Design**: OpenDesign, GoogleStitch (UI/UX for projects)
-
-I used GoogleStitch to design and build my [portfolio site](https://harsha-github-io-iota.vercel.app/) and OpenDesign for the [FlashBot documentation site](https://flash-bot-docs.vercel.app/).
+Right now I'm building a flight controller from scratch. Long term, I'm learning Japanese and aiming for graduate research in robotics in Japan, reading into SLAM and embedded ML along the way.
 
 ---
 
 ## Experience
 
-### Robotics Intern
-**Aegion Dynamic Solutions LLP**, Visakhapatnam, India  
-May 2026 – Present(ongoing)
+### Robotics Intern · Aegion Dynamic Solutions LLP
+*Visakhapatnam, India · April 2026 – Present*
 
-- Designing and simulating an autonomous robotic vacuum cleaner using ROS 2 and Gazebo
-- Developing a portable hardware testing device powered by a Raspberry Pi Zero for automated circuit diagnostics
-- Contributing to open-source software and embedded hardware projects in an internship environment
+**Railway relay test rig (firmware lead)**
+- Leading firmware for an **ESP32**-based device that validates **QN1-series railway relays**
+- Implemented an **18-point electrical and timing test suite**: coil resistance, pickup/drop voltage, contact gap and resistance, bounce and transfer time, insulation resistance, and reverse polarity
+- Live test results rendered on an **HMI touchscreen** display
 
----
-
-## Selected Projects
-
-| Project | Tech | Description | Links |
-|---|---|---|---|
-| **FlashBot** | Python, Docker, SQLite | Automated firmware detection, compilation, and flashing across MCU architectures. Improved workflow efficiency by 25%. | [Repo](https://github.com/Harsha685/Flash_Bot) · [Docs](https://flash-bot-docs.vercel.app/) |
-| **CHIP-8 Emulator** | C, SDL | Full emulator from scratch featuring fetch-decode-execute cycle, display, and keyboard | [Repo](https://github.com/Harsha685/chip-8-emulator) |
-| **Boustrophedon Coverage Planner** | Python | A* path planner with boustrophedon decomposition, 30% efficiency gain | [Repo](https://github.com/Harsha685/Grid-based-boustrophedon-coverage-planner) |
-| **System Monitor** | Python, psutil, rich | Terminal-based real-time CPU/memory/disk/network/process monitor | [Repo](https://github.com/Harsha685/System-Monitor) |
-| **Offline AI Robot Assistant** | Python, C, Arduino | ESP32 + servo + TFT offline AI assistant, Srujana 2026 Hackathon | — |
+**Autonomous floor-coverage robot (simulation)**
+- Built an end-to-end explore → map → plan → sweep pipeline for a cleanroom-style cleaning robot in **ROS 2 Jazzy**, **Gazebo**, and **Nav2**, reaching **94–97% ground-truth floor coverage** ([details below](#2-autonomous-floor-coverage-robot))
 
 ---
 
-### FlashBot | Hardware Automation Pipeline
+## Featured Projects
 
-- Built dockerized cross-compilation toolchains using arduino-cli and esptool
-- Abstracted USB/UART interactions using pyudev for consistent hardware workflows
-- Designed an event-driven state machine with SQLite logging for traceability
+### 1. Flight Controller &nbsp;`in progress`
+
+A custom flight controller built from the ground up: drivers, RTOS scheduling, state estimation, and hardware.
+
+- **Bare-metal C drivers** for GPIO, UART, SPI, I²C, timers, and RTC, with custom startup code and linker scripts
+- **FreeRTOS SMP** prototype on RP2040 (Raspberry Pi Pico W), with the sensor task pinned to Core 1 and reporting isolated on Core 0
+- **Sensor fusion** of IMU, barometer, and magnetometer through a hand-tuned **Kalman filter**
+- Hand-soldered and prototyped hardware; debugged with ST-Link, multimeter, and oscilloscope
+- **Next:** DMA-driven sensor reads, PID attitude control, and porting to STM32F411
+
+<details open>
+<summary><b>Case study: 100 Hz control-loop jitter profiling (RP2040 + FreeRTOS)</b></summary>
+
+<br>
+
+Built a profiling harness to verify that the sensor loop actually held its 100 Hz (10,000 µs) period under `vTaskDelayUntil`, measuring 1,000 consecutive intervals with `time_us_64()`.
+
+| Metric   | I²C @ 100 kHz | I²C @ 400 kHz |
+| -------- | ------------: | ------------: |
+| Min      | 3,390 µs      | 9,095 µs      |
+| Max      | 10,098 µs     | 10,201 µs     |
+| Average  | 9,992 µs      | 9,989 µs      |
+| Outliers | 1 / 1,000     | 0 / 1,000     |
+
+**Finding:** blocking I²C sensor reads at 100 kHz occasionally overran the period, causing a catch-up interval of 3,390 µs.
+**Fix:** raising the bus to 400 kHz cut the read overhead and eliminated the observed outliers.
+
+</details>
+
+---
+
+### 2. Autonomous Floor-Coverage Robot
+
+A simulated cleaning robot of the kind used in pharma cleanrooms. Placed on its dock in a room it has never seen, it explores, maps, plans full coverage, sweeps the floor, and grades its own work, all from one command.
+
+**Stack:** ROS 2 Jazzy · Gazebo · TurtleBot4 · Nav2 · slam_toolbox · Fields2Cover · Python · Docker
+
+| World | Floor swept (ground truth, reachable floor) |
+|---|---:|
+| Two rooms joined by a doorway | **95.0%** |
+| Warehouse room, dock in the middle | **96.9%** |
+| Warehouse room, dock at one end, priority-ordered | **94.0%** (60/61 paths, 32 min) |
+
+Localization error against ground truth: **1.4 cm median**, 3.3 cm 95th percentile.
+
+- **Frontier exploration** driven through Nav2's `NavigateToPose`, with reachability checks that reject fake frontiers created by LiDAR rays leaking through walls
+- **Custom occupancy map** built from hit/pass voting on raw scans at the SLAM pose, which keeps obstacle faces that slam_toolbox's grid erased; mapped 99% of the real floor
+- **8-stage map filter** (leak-zone removal, despeckle, gap closing, reachability, dock burn-in, wall shell) so AMCL localizes reliably on the saved map
+- **Coverage planning with region priority:** Fields2Cover boustrophedon swaths, split into bands by Dijkstra walking distance from the entrance so the dirtiest floor is cleaned first (or last, per GMP cleanroom practice)
+- **Fault-tolerant executor** using `FollowPath` with a Rotation Shim + Regulated Pure Pursuit controller, plus guards for wall escape, stall watchdog, skip-ahead, Nav2 lifecycle restart, and lost localization
+- Diagnosed and fixed simulator issues including a faulty LiDAR sector, Twist/TwistStamped mismatch, and Docker's 64 MB `/dev/shm` silently dropping DDS messages mid-run
+
+---
+
+### 3. FlashBot &nbsp;·&nbsp; [Repo](https://github.com/Harsha685/Flash_Bot) · [Docs](https://flash-bot-docs.vercel.app/)
+
+An open-source CLI that detects a connected board, compiles the right firmware, and flashes it with no IDE in the loop.
+
+- Supports **AVR, ESP32, and RP2040**, with Dockerized cross-compilation toolchains (`arduino-cli`, `esptool`)
+- Abstracts USB/UART device handling with `pyudev` for consistent behavior across boards
+- Event-driven state machine with SQLite logging for a traceable record of every flash
+- About **25% faster** end-to-end compile-and-flash cycles than Arduino IDE and PlatformIO in my benchmarks
+- Picked up by users after I shared it on Reddit, with positive feedback
+- **Roadmap:** PlatformIO integration and STM32 support
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/Flashbot-ezgif.com-video-to-gif-converter.gif" width="400"/>
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/Flashbot_arduino.jpeg" width="400"/>
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/Flashbot-ezgif.com-video-to-gif-converter.gif" width="420"/>
 </div>
 
 ---
 
-### CHIP-8 Emulator
+### 4. CHIP-8 Emulator &nbsp;·&nbsp; [Repo](https://github.com/Harsha685/chip-8-emulator)
 
-- Implemented the full fetch-decode-execute cycle
-- Added opcode handling, memory architecture, and bitwise instruction parsing
-- Built display rendering and real-time keyboard input handling
+A CHIP-8 interpreter written from scratch in C with SDL.
+
+- Full fetch-decode-execute cycle with bitwise opcode decoding
+- Emulated memory map, registers, stack, and timers
+- Display rendering and real-time keypad input
+- **Next:** SUPER-CHIP extension support
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/Chip8%20(1).gif" width="400"/>
+<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/Chip8%20(1).gif" width="420"/>
 </div>
 
 ---
 
-### Grid-based Boustrophedon Coverage Planner
+## More Work
 
-- Implemented an A* path planner with boustrophedon cellular decomposition
-- Improved efficiency by 30% over a previous implementation
-- Built and tested the system in simulation
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/path_algo-ezgif.com-video-to-gif-converter.gif" width="400"/>
-</div>
+| Project | What it is | Stack |
+|---|---|---|
+| **Offline AI Desktop Companion** · *1st Place, Srujana 2026* | A robotic desktop buddy running a fully offline voice pipeline (Whisper → local LLM via Ollama → TTS) with English and Telugu support. It greets people it sees through a camera and animates a "speaking" face on a TFT display. I built the embedded hardware (ESP32 control, servo actuation, TFT) and the integration layer connecting the pipeline to the robot. | ESP32, servos, TFT, Python, Whisper, Ollama |
+| **Drone Survey Simulation** · *3rd Place, SIH Internal Round* | Autonomous drone survey missions over Gazebo models of Visakhapatnam buildings: mission planning, point-cloud accumulation, and digital surface model (DSM) generation. Fully containerized with a patched PX4 drone model. | ROS 2 Jazzy, Gazebo Harmonic, PX4 SITL 1.15, MAVROS, Docker |
+| **Signal vs. Event-Based Job Control in POSIX Shells** · *research, design stage* | Independent study building two POSIX-compliant shells to compare job-control models under high-concurrency workloads. | C, POSIX |
 
 ---
 
-### System Monitor | Terminal Dashboard
+## Technical Skills
 
-A terminal-based system monitor written in Python using `psutil` and `rich`, displaying real-time CPU, memory, disk, network, temperature, battery, and process information with color-coded alerts.
-
-**Features:** per-core CPU bars, RAM/swap, disk partitions, network I/O, temperature sensors, battery, top 10 processes by CPU
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/System_monitor.png" width="400"/>
-</div>
-
----
-
-### Offline AI Robot Assistant — Srujana 2026 Hackathon
-
-Team project built for the Srujana 2026 State-Level Hackathon at SVPEC Visakhapatnam.
-
-- Integrated ESP32, servo motors, and TFT display for physical interaction and feedback
-- Runs fully offline with no cloud dependency
-- Awarded 1st Place at the state-level hackathon
+| Area | Tools & Technologies |
+|---|---|
+| **Languages** | C (bare-metal), C++, Python, Rust, MATLAB/Simulink |
+| **Microcontrollers** | STM32F411 (Black Pill), RP2040 (Pico / Pico W), ESP32 (incl. S3, C3), AVR |
+| **Firmware** | Register-level drivers (GPIO, UART, SPI, I²C, timers, RTC), FreeRTOS (SMP), startup code & linker scripts |
+| **Robotics** | ROS 2 Jazzy, Nav2, slam_toolbox, AMCL, Fields2Cover, PX4 SITL, MAVROS, Gazebo (Harmonic), Isaac Sim, Kalman filtering, LiDAR & camera integration |
+| **Hardware** | Soldering & prototyping, HMI touchscreens, ST-Link, oscilloscope, multimeter, KiCad, Fusion 360 |
+| **Tooling** | Linux, Git, Docker, STM32CubeIDE, OpenCV, NumPy |
 
 ---
 
-## Community
+## Currently Building & Learning
 
-### Vizag Game Devs — Port Meetup
-
-Frequently attend the Vizag Game Devs Port Meetup in Visakhapatnam, a local community event for indie developers, pixel artists, game designers, and audio creators to connect, share builds, and grow the local game dev ecosystem.
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/gamedev_meetup.jpeg" width="400"/>
-</div>
-
----
-
-## Skills
-
-### Programming
-Bare-metal C, C++, Python
-
-### Robotics and Embedded Systems
-ROS 2, Gazebo, ESP32, STM32F411C Black Pill, Raspberry Pi Pico, Arduino
-
-### Tools
-Git, Docker, Linux, Fusion 360, STM32CubeIDE, VS Code
-
-### Libraries
-NumPy, Matplotlib, OpenCV, PySerial
+- **Flight controller:** DMA-based sensor pipelines and PID attitude control
+- **Custom particle filter** for localization in my robotics simulation project
+- **Embedded Rust** on microcontrollers
+- **Japanese:** around JLPT N4 level
 
 ---
 
 ## Education
 
-### Andhra University
-B.Tech in Computer Science and Engineering  
-2025 – 2029 · GPA: 8.0 / 10 (Year 1)
+**Andhra University College of Engineering (AUCE)**, Visakhapatnam
+B.Tech, Computer Science and Systems Engineering · 2025 – 2029
+CGPA **8.15 / 10** (Sem 1: 8.00 · Sem 2: 8.45)
 
-Relevant coursework: Data Structures in C, Digital Logic Design, Electronics, Linux
+Relevant coursework: Data Structures in C, Digital Logic Design, Electronics, Operating Systems, Linux
+
+---
+
+## Achievements
+
+- 🥇 **1st Place**, Srujana 2026 State-Level Hackathon, SVPEC Visakhapatnam
+- 🥉 **3rd Place**, Smart India Hackathon (Internal Round)
+- 🎓 **PMSS Scholarship** recipient
+
+---
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/1st_year_syllabus.jpeg" height="300"/>
+
+Always happy to talk about robotics, embedded systems, or edge AI.
+**[Email](mailto:harshavardhanchelluri@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382)**
+
 </div>
-
----
-
-## Achievements & Certifications
-
-- 1st Place, Srujana 2026 State-Level Hackathon, SVPEC Visakhapatnam
-- Built FlashBot as an open-source automation pipeline for MCU firmware workflows
-- Completed freeCodeCamp Python Developer Certification
-- Completed Anthropic's MCP: Advanced Topics certification
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/Anthropic_MCP.jpg" height="300"/>
-<img src="https://raw.githubusercontent.com/Harsha685/Harsha685/main/python_cert.png" height="300"/>
-</div>
-
----
-
-## Research Interests
-
-Current focus is robotics engineering, low-level systems, and AI tooling with an emphasis on agents and practical automation.
-
-**Currently working on:**
-- Signal-Based vs. Event-Based Job Control in POSIX Shells: A Performance and Scalability Analysis (building two POSIX-compliant shells and stress testing under high-concurrency workloads)
-- ROS 2 simulation pipelines and autonomous navigation at Aegion Dynamic Solutions
-
-**Planning to work on:**
-- Agent-based AI systems for embedded robotics
-- Graduate study in robotics (MEXT scholarship) with focus on low-level systems and real-time task scheduling
-
-This research direction supports future graduate study and work in robotics engineering.
-
----
-
-## Contact
-
-[GitHub](https://github.com/Harsha685) | [LinkedIn](https://www.linkedin.com/in/harshavardhan-chelluri-77194b382) | [Portfolio](https://harsha-github-io-iota.vercel.app/) | [FlashBot Docs](https://flash-bot-docs.vercel.app/)
